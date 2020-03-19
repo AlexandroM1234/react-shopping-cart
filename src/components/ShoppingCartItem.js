@@ -1,6 +1,6 @@
 import React from "react";
 
-const ShoppingCardItem = props => {
+const ShoppingCartItem = props => {
   return (
     <div className="shopping-cart_item">
       <img src={props.image} alt={`${props.title} book`} />
@@ -14,4 +14,4 @@ const ShoppingCardItem = props => {
   );
 };
 
-export default ShoppingCardItem;
+export default ShoppingCartItem;
